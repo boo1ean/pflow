@@ -1,0 +1,33 @@
+{
+  "name": "pflow",
+  "version": "1.0.0",
+  "description": "Create flow of functions which returns promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boo1ean/pflow.git"
+  },
+  "keywords": [
+    "bluebird",
+    "promise",
+    "flow",
+    "promise-flow",
+    "compose",
+    "promise-compose"
+  ],
+  "author": "Egor Gumenyuk <boo1ean0807@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boo1ean/pflow/issues"
+  },
+  "homepage": "https://github.com/boo1ean/pflow",
+  "dependencies": {
+    "bluebird": "^2.10.2"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
